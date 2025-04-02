@@ -5,21 +5,31 @@ Slug: about
 
 # About Me
 
-Hi, I'm Kane! I'm passionate about:
+Hi! I'm Kane, a passionate learner exploring the worlds of:
 
-- Python Programming
-- GIS and Mapping
-- Web Development
-- Data Analysis
+- 🐍 Python Programming
+- 🗺️ GIS (Geographic Information Systems)
+- 🌐 Web Development
+- 📊 Data Analysis
 
-## My Learning Journey
+## Current Focus
 
-I'm currently learning and working with:
-- Python programming with guidance from [Pymi](https://pymi.vn/)
-- GIS data analysis with HCMGIS
-- Web development and blogging
+I'm currently working on several exciting projects:
+- COVID-19 mapping using GIS
+- Learning web development with Python
+- Building data visualization tools
+
+## Learning Journey
+
+I'm constantly learning through:
+- Python programming at [Pymi](https://pymi.vn/)
+- GIS technology with HCMGIS
+- Open source contributions
+- Web development projects
 
 ## Connect With Me
 
 - GitHub: [phukhang2211](https://github.com/phukhang2211)
-- Learning Resources: [Familug](https://www.familug.org/) 
+- Learning Resources: [Familug](https://www.familug.org/)
+
+Feel free to reach out if you want to collaborate on projects or share learning resources! 
