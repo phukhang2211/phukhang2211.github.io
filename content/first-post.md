@@ -1,8 +1,10 @@
 Title: First Post
 Date: 2020-03-27 08:30
+Modified: 2024-04-02 21:45
 Category: misc
+Tags: covid-19, gis, python
 Author: Kane
-Slug: first-post
+Summary: Starting my journey with COVID-19 mapping and HTML learning
 
 **Today I start to do Covid-19 Map and study html too**
 

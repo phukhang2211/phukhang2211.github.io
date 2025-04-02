@@ -16,6 +16,16 @@ TIMEZONE = 'Asia/Ho_Chi_Minh'
 DEFAULT_LANG = 'vi'
 DEFAULT_DATE_FORMAT = '%d/%m/%Y'
 
+# URL Settings
+ARTICLE_URL = '{slug}.html'
+ARTICLE_SAVE_AS = '{slug}.html'
+PAGE_URL = 'pages/{slug}.html'
+PAGE_SAVE_AS = 'pages/{slug}.html'
+CATEGORY_URL = 'category/{slug}.html'
+CATEGORY_SAVE_AS = 'category/{slug}.html'
+TAG_URL = 'tag/{slug}.html'
+TAG_SAVE_AS = 'tag/{slug}.html'
+
 # Feed generation
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -42,13 +52,18 @@ SOCIAL = (
     ('GitHub', 'https://github.com/phukhang2211'),
 )
 
-DEFAULT_PAGINATION = 10
+# Pagination
+DEFAULT_PAGINATION = 5
 DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
 
 # Theme settings
 THEME = 'notmyidea'
 STATIC_PATHS = ['images']
+
+# Index page settings
+SUMMARY_MAX_LENGTH = 50
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
 
 # Plugins and Extensions
 MARKDOWN = {
