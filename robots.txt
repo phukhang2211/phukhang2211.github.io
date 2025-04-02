@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://phukhang2211.github.io/sitemap.xml
+
+Disallow: /theme/
+Disallow: /admin/ 
