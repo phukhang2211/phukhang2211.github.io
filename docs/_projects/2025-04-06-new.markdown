@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Welcome to test!"
+date:   2025-04-05 19:35:55 +0700
+categories: tutorial
+---
+
+# Welcome to My First Blog Post
+
+This is an example blog post written in Markdown. Here are some features you can use:
+
+## Headers
+
+You can create headers of different levels using `#` symbols.
+
+## Lists
+
+### Unordered Lists
+* Item 1
+* Item 2
+* Item 3
+
+### Ordered Lists
+1. First item
+2. Second item
+3. Third item
+
+## Code Blocks

@@ -53,3 +53,40 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  tutorials:
+    output: true
+    permalink: /tutorials/:categories/:title/
+  authors:
+    output: true
+    permalink: /authors/:path/
+
+# Defaults for collections
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "post"
+
+# Category and tag settings
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
