@@ -1,0 +1,237 @@
+---
+layout: default
+---
+
+<div class="documentation-container">
+  <!-- Left Sidebar -->
+  <!-- <div class="sidebar">
+    <nav class="nav-docs">
+      <div class="nav-section">
+        <h3>Get Started</h3>
+        <ul>
+          <li {% if page.url contains 'install_odoo' %}class="active"{% endif %}>
+            <a href="{{ site.baseurl }}/odoo/tutorial/2025/04/06/install_odoo.html">Installation Guide</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-section">
+        <h3>Odoo Tutorials</h3>
+        <ul>
+          {% for post in site.categories.odoo %}
+            <li {% if page.url == post.url %}class="active"{% endif %}>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="nav-section">
+        <h3>Best Practices</h3>
+        <ul>
+          {% for post in site.categories.tutorial %}
+            <li {% if page.url == post.url %}class="active"{% endif %}>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+  </div> -->
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <div class="breadcrumbs">
+      <a href="{{ site.baseurl }}/">Home</a> &raquo;
+      {% if page.categories %}
+        {% for category in page.categories %}
+          <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}">{{ category | capitalize }}</a>
+          {% unless forloop.last %}&raquo;{% endunless %}
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <article class="documentation">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </article>
+  </div>
+</div>
+
+<style>
+.documentation-container {
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 95%;
+  padding: 0.5rem;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  width: 100px;
+  flex-shrink: 0;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+  height: fit-content;
+  position: sticky;
+  top: 1rem;
+  margin-left: 0;
+}
+
+.nav-docs {
+  font-size: 0.85rem;
+}
+
+.nav-section {
+  margin-bottom: 1.25rem;
+}
+
+.nav-section h3 {
+  color: #343a40;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.nav-docs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-docs li {
+  margin: 0.25rem 0;
+}
+
+.nav-docs a {
+  color: #495057;
+  text-decoration: none;
+  display: block;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.nav-docs a:hover {
+  background: #e9ecef;
+  color: #1971c2;
+}
+
+.nav-docs li.active a {
+  background: #e7f5ff;
+  color: #1971c2;
+  font-weight: 500;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  min-width: 0;
+  margin-right: 0;
+}
+
+.breadcrumbs {
+  font-size: 0.85rem;
+  color: #868e96;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.breadcrumbs a {
+  color: #495057;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: #1971c2;
+}
+
+.documentation {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.documentation h1 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+}
+
+.documentation h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e9ecef;
+  color: #343a40;
+}
+
+.documentation h3 {
+  margin-top: 1.5rem;
+  color: #495057;
+}
+
+.documentation p {
+  line-height: 1.6;
+  color: #495057;
+}
+
+.documentation code {
+  background: #f8f9fa;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  color: #e83e8c;
+}
+
+.documentation pre {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid #e9ecef;
+}
+
+.documentation pre code {
+  padding: 0;
+  background: none;
+  color: inherit;
+}
+
+.documentation ul {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.documentation li {
+  margin: 0.5rem 0;
+  color: #495057;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .documentation-container {
+    flex-direction: column;
+    padding: 0.25rem;
+    max-width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+
+  .documentation {
+    padding: 1rem;
+  }
+}
+</style> 
