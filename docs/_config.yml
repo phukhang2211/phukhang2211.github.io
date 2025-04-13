@@ -21,7 +21,7 @@
 title: Blog
 email: phukhang2211@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Ghi chú tổng hợp xem giúp ích được gì không.
+  Ghi chú mọi thứ để nhẹ đầu hơn.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://phukhang2211.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: phukhang2211
