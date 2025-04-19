@@ -113,7 +113,7 @@ addons_path = /home/wsl-user/18odoo/odoo-server/addons,/home/wsl-user/18odoo/cus
 
 2. Chạy Odoo với file config:
 ```bash
-python3 odoo-bin -c /home/khang/18odoo/odoo.conf
+python3 odoo-bin -c /home/wsl-user/18odoo/odoo.conf
 ```
 
 ## Thiết lập VS Code với WSL
@@ -138,7 +138,7 @@ python3 odoo-bin -c /home/khang/18odoo/odoo.conf
             "type": "debugpy",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "/home/khang/18odoo/venv/bin/python3",
+            "python": "/home/wsl-user/18odoo/venv/bin/python3",
             "console": "integratedTerminal",
             "program": "${workspaceRoot}/odoo-server/odoo-bin",
             "args": [
@@ -148,8 +148,8 @@ python3 odoo-bin -c /home/khang/18odoo/odoo.conf
             ],
             "cwd": "${workspaceRoot}",
             "env": {
-                "VIRTUAL_ENV": "/home/khang/18odoo/venv",
-                "PATH": "/home/khang/18odoo/venv/bin:${env:PATH}",
+                "VIRTUAL_ENV": "/home/wsl-user/18odoo/venv",
+                "PATH": "/home/wsl-user/18odoo/venv/bin:${env:PATH}",
                 "PYDEVD_DISABLE_FILE_VALIDATION": "1"
             },
             "envFile": "${workspaceRoot}/.env",
