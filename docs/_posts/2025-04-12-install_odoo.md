@@ -89,12 +89,16 @@ sudo ./setup/debinstall.sh
 ```
 
 7. Cài đặt wkhtmltopdf dùng để in PDF:
+
+## Cài đặt library libssl1.1
 ```bash
 echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list
+sudo apt update
+sudo apt install libssl1.1
+```
 
-sudo apt-get update
-sudo apt-get install libssl1.1
-
+## Cài đặt wkhtmltopdf
+```bash
 wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
 sudo apt install ./wkhtmltox_0.12.5-1.focal_amd64.deb
 ```
