@@ -88,6 +88,17 @@ cd odoo-server
 sudo ./setup/debinstall.sh
 ```
 
+7. Cài đặt wkhtmltopdf dùng để in PDF:
+```bash
+echo "deb http://security.ubuntu.com/ubuntu focal-security main" | sudo tee /etc/apt/sources.list.d/focal-security.list
+
+sudo apt-get update
+sudo apt-get install libssl1.1
+
+wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
+sudo apt install ./wkhtmltox_0.12.5-1.focal_amd64.deb
+```
+
 ## Kiểm tra cài đặt
 
 Chạy thử Odoo:
