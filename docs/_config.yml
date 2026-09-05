@@ -60,10 +60,10 @@ collections:
     permalink: /projects/:path/
   tutorials:
     output: true
-    permalink: /tutorials/:categories/:title/
+    permalink: /tutorials/:path/
   nganh:
     output: true
-    permalink: /nganh/:categories/:title/
+    permalink: /nganh/:path/
   authors:
     output: true
     permalink: /authors/:path/
