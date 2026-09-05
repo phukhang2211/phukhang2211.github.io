@@ -59,6 +59,9 @@ collections:
   tutorials:
     output: true
     permalink: /tutorials/:categories/:title/
+  nganh:
+    output: true
+    permalink: /nganh/:categories/:title/
   authors:
     output: true
     permalink: /authors/:path/
@@ -78,6 +81,11 @@ defaults:
   - scope:
       path: ""
       type: "tutorials"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "nganh"
     values:
       layout: "post"
 
