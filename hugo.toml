@@ -5,7 +5,7 @@ title = "Blog"
 [params]
   description = "Ghi chú mọi thứ có thể."
   googleAnalytics = "G-83YGLZWHFM"
-  facebookAppId = "28215199118173088"
+  disqusShortname = "blog-odoo-vn"
   githubUsername = "phukhang2211"
 
 [taxonomies]
