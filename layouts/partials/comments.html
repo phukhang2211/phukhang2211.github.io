@@ -1,0 +1,11 @@
+{{ if and hugo.IsProduction .Site.Params.facebookAppId }}
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+  src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v21.0&appId={{ .Site.Params.facebookAppId }}">
+</script>
+<div class="fb-comments"
+     data-href="{{ .Permalink }}"
+     data-width="100%"
+     data-numposts="5">
+</div>
+{{ end }}

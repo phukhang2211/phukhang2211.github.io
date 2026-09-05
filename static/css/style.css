@@ -1,0 +1,162 @@
+* { box-sizing: border-box; }
+
+:root {
+  --bg: #0d1117;
+  --bg-elevated: #161b22;
+  --text: #c9d1d9;
+  --text-muted: #8b949e;
+  --border: #30363d;
+  --accent: #58a6ff;
+  --code-bg: #1a2029;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-header nav a {
+  margin-left: 16px;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.site-header nav a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+.wrapper {
+  min-height: 60vh;
+  padding: 30px 0;
+}
+
+h1, h2, h3, h4 {
+  color: #e6edf3;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.3em;
+}
+
+.post-header .meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.post-header .meta a {
+  color: var(--accent);
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-list a {
+  color: var(--text);
+}
+
+.post-list a:hover {
+  color: var(--accent);
+}
+
+.post-list .date {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-right: 10px;
+}
+
+.post-list .section-tag {
+  margin-left: 10px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+a {
+  color: var(--accent);
+}
+
+.content {
+  margin-top: 1.5em;
+}
+
+.content ul, .content ol {
+  padding-left: 1.5em;
+}
+
+.content pre {
+  background: var(--code-bg);
+  padding: 12px;
+  overflow-x: auto;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.content code {
+  background: var(--code-bg);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.content pre code {
+  background: none;
+  padding: 0;
+}
+
+.content blockquote {
+  border-left: 3px solid var(--border);
+  margin-left: 0;
+  padding-left: 1em;
+  color: var(--text-muted);
+}
+
+.content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 20px 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.site-footer a {
+  color: var(--text-muted);
+}
+
+.fb-comments {
+  margin-top: 2em;
+}

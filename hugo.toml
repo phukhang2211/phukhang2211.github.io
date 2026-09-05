@@ -1,0 +1,19 @@
+baseURL = "https://phukhang2211.github.io/"
+languageCode = "vi"
+title = "Blog"
+
+[params]
+  description = "Ghi chú mọi thứ có thể."
+  googleAnalytics = "G-83YGLZWHFM"
+  facebookAppId = "28215199118173088"
+  githubUsername = "phukhang2211"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+  unsafe = false

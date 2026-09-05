@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>{{ .Site.Title }}</h1>
+<p>{{ .Site.Params.description }}</p>
+<ul class="post-list">
+  {{ range (where .Site.RegularPages "Type" "in" (slice "posts" "tutorials" "nganh")).ByDate.Reverse }}
+  <li>
+    <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <span class="section-tag">{{ .Type }}</span>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
