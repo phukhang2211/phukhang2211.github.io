@@ -4,7 +4,7 @@ categories: sales-crm
 tags: [odoo, end-user, crm]
 excerpt: "Cấu hình Pipeline, Lead, đội Sales và nguồn khách hàng trong Odoo CRM."
 date: 2026-10-05
-published: false
+published: true
 ---
 
 <!-- Bài 4/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

@@ -4,7 +4,7 @@ categories: ke-toan
 tags: [odoo, end-user, ke-toan, hoa-don-dien-tu]
 excerpt: "Tích hợp nhà cung cấp hoá đơn điện tử và quy trình phát hành hoá đơn trong Odoo."
 date: 2026-11-02
-published: false
+published: true
 ---
 
 <!-- Bài 8/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

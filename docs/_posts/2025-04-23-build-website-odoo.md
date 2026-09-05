@@ -2,7 +2,7 @@
 layout: post
 title: "Xây dựng Website linh động với Odoo miễn phí"
 date: 2025-04-23
-categories: odoo website
+categories: pos-ecommerce
 ---
 
 # Xây dựng Website linh động với Odoo miễn phí

@@ -2,7 +2,7 @@
 layout: documentation
 title: "Cài đặt debug Odoo cho máy Windows bằng WSL"
 date: 2025-04-19
-categories: odoo tutorial
+categories: setup
 tags: [installation, setup, odoo]
 excerpt: "A comprehensive guide to installing Odoo"
 ---

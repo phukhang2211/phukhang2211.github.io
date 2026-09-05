@@ -4,7 +4,7 @@ categories: sales-crm
 tags: [odoo, end-user, sales]
 excerpt: "Đơn vị tính, giá theo khách hàng/nhóm khách hàng, chiết khấu trong Odoo."
 date: 2026-10-19
-published: false
+published: true
 ---
 
 <!-- Bài 6/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

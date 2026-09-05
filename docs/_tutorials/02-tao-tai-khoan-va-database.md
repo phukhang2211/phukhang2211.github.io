@@ -4,7 +4,7 @@ categories: setup
 tags: [odoo, end-user, setup]
 excerpt: "Hướng dẫn đăng ký Odoo Online và khởi tạo database đầu tiên cho người dùng Việt Nam."
 date: 2026-09-21
-published: false
+published: true
 ---
 
 <!-- Bài 2/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

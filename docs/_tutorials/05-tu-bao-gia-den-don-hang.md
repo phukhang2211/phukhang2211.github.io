@@ -4,7 +4,7 @@ categories: sales-crm
 tags: [odoo, end-user, sales]
 excerpt: "Quy trình Quotation → Sales Order → Invoice, mẫu báo giá tiếng Việt, điều khoản thanh toán."
 date: 2026-10-12
-published: false
+published: true
 ---
 
 <!-- Bài 5/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

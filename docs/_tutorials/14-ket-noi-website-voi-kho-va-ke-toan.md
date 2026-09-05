@@ -4,7 +4,7 @@ categories: pos-ecommerce
 tags: [odoo, end-user, ecommerce]
 excerpt: "Đơn hàng online tự động trừ kho và xuất hoá đơn tự động trong Odoo eCommerce."
 date: 2026-12-14
-published: false
+published: true
 ---
 
 <!-- Bài 14/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

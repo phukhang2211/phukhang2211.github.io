@@ -4,7 +4,7 @@ categories: ke-toan
 tags: [odoo, end-user, ke-toan]
 excerpt: "Chart of accounts, Fiscal Localization VN, đơn vị tiền tệ, năm tài chính trong Odoo."
 date: 2026-10-26
-published: false
+published: true
 ---
 
 <!-- Bài 7/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

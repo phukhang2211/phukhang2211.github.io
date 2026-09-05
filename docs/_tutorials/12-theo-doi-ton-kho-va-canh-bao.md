@@ -4,7 +4,7 @@ categories: kho-van
 tags: [odoo, end-user, kho-van]
 excerpt: "Reordering rules và kiểm kho định kỳ trong Odoo Inventory."
 date: 2026-11-30
-published: false
+published: true
 ---
 
 <!-- Bài 12/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

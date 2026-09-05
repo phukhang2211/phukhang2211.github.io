@@ -4,7 +4,7 @@ categories: kho-van
 tags: [odoo, end-user, kho-van, mua-hang]
 excerpt: "RFQ, Purchase Order, nhập kho và hoá đơn nhà cung cấp trong Odoo Purchase."
 date: 2026-11-23
-published: false
+published: true
 ---
 
 <!-- Bài 11/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

@@ -4,7 +4,7 @@ categories: ke-toan
 tags: [odoo, end-user, ke-toan, thue]
 excerpt: "Cấu hình thuế suất, mã thuế và báo cáo thuế GTGT cơ bản trong Odoo."
 date: 2026-11-09
-published: false
+published: true
 ---
 
 <!-- Bài 9/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

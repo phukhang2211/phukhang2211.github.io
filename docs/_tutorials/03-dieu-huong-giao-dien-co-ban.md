@@ -4,7 +4,7 @@ categories: setup
 tags: [odoo, end-user, setup]
 excerpt: "Các kỹ năng dùng chung cho mọi app Odoo: Apps menu, list/kanban/form view, filter, group by, export."
 date: 2026-09-28
-published: false
+published: true
 ---
 
 <!-- Bài 3/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

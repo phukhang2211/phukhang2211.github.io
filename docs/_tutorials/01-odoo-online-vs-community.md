@@ -4,7 +4,7 @@ categories: setup
 tags: [odoo, end-user, setup]
 excerpt: "So sánh Odoo Online và Odoo Community để chọn hướng phù hợp cho SME Việt Nam."
 date: 2026-09-14
-published: false
+published: true
 ---
 
 <!-- Bài 1/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

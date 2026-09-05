@@ -4,7 +4,7 @@ categories: kho-van
 tags: [odoo, end-user, kho-van]
 excerpt: "Nhập tồn kho đầu kỳ, vị trí kho, đơn vị đo lường trong Odoo Inventory."
 date: 2026-11-16
-published: false
+published: true
 ---
 
 <!-- Bài 10/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->

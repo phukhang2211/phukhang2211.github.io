@@ -4,7 +4,7 @@ categories: pos-ecommerce
 tags: [odoo, end-user, pos]
 excerpt: "Máy in bill, đầu đọc mã vạch, phương thức thanh toán tiền mặt/chuyển khoản/QR trong Odoo POS."
 date: 2026-12-07
-published: false
+published: true
 ---
 
 <!-- Bài 13/14 trong series "Odoo cho người dùng cuối tại Việt Nam" -->
