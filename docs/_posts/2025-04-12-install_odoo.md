@@ -5,7 +5,14 @@ date: 2025-04-19
 categories: setup
 tags: [installation, setup, odoo]
 excerpt: "A comprehensive guide to installing Odoo"
+published: false
 ---
+
+<!-- Ẩn: nội dung dành cho dev (WSL, debug, source install) — lạc hướng so với
+     blog hiện tại là hướng dẫn Odoo cho end-user. Cũng đang tham chiếu layout
+     "documentation" không tồn tại trong theme, nên để published: false luôn
+     tránh Jekyll build lỗi nếu bật lại nhầm. -->
+
 
 # Cài đặt debug Odoo cho máy Windows bằng WSL
 
